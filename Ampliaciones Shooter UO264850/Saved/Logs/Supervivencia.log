@@ -1,0 +1,235 @@
+﻿Log file open, 01/27/20 15:45:30
+LogInit:Display: Running engine for game: Supervivencia
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1477089045) SRandInit(1477089045).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 3.556500
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: D:/UnrealEngine/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.01.27-14.45.31:727][  0]LogInit: Selected Device Profile: [Windows]
+[2020.01.27-14.45.31:727][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.01.27-14.45.31:774][  0]LogInit: Computer: LAPTOP-IAG928L3
+[2020.01.27-14.45.31:774][  0]LogInit: User: Lucía
+[2020.01.27-14.45.31:774][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.01.27-14.45.31:774][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.01.27-14.45.31:787][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2020.01.27-14.45.31:787][  0]LogMemory: Platform Memory Stats for Windows
+[2020.01.27-14.45.31:787][  0]LogMemory: Process Physical Memory: 276.28 MB used, 276.29 MB peak
+[2020.01.27-14.45.31:787][  0]LogMemory: Process Virtual Memory: 262.43 MB used, 262.43 MB peak
+[2020.01.27-14.45.31:787][  0]LogMemory: Physical Memory: 5978.10 MB used,  26709.18 MB free, 32687.28 MB total
+[2020.01.27-14.45.31:787][  0]LogMemory: Virtual Memory: 4749.95 MB used,  26709.18 MB free, 134217728.00 MB total
+[2020.01.27-14.45.32:674][  0]LogInit: Overriding language with editor language configuration option (en).
+[2020.01.27-14.45.32:674][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2020.01.27-14.45.34:794][  0]LogD3D11RHI: D3D11 adapters:
+[2020.01.27-14.45.34:911][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2020.01.27-14.45.34:911][  0]LogD3D11RHI:       8081/0/16343 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.01.27-14.45.34:915][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.01.27-14.45.34:915][  0]LogD3D11RHI:       0/0/16343 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.01.27-14.45.34:915][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.01.27-14.45.34:924][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.01.27-14.45.34:924][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2020.01.27-14.45.34:924][  0]LogWindows: EnumDisplayDevices:
+[2020.01.27-14.45.34:924][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2020.01.27-14.45.34:925][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.01.27-14.45.34:925][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.01.27-14.45.34:925][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.01.27-14.45.34:925][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.01.27-14.45.34:925][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2020.01.27-14.45.34:925][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.01.27-14.45.34:925][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.01.27-14.45.34:926][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2020.01.27-14.45.34:998][  0]LogD3D11RHI: Async texture creation enabled
+[2020.01.27-14.45.35:258][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.01.27-14.45.35:408][  0]LogShaderCompilers: Guid format shader working directory is -50 characters bigger than the processId version (C:/Users/Lucía/Documents/GitHub/Ampliaciones-Shooter-Unreal-Engine/Ampliaciones Shooter UO264850/Intermediate/Shaders/WorkingDirectory/4052/).
+[2020.01.27-14.45.35:408][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Lucía/AppData/Local/Temp/UnrealShaderWorkingDir/55FA7FF8495B5EEE43B877839793291B/'.
+[2020.01.27-14.45.35:423][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2020.01.27-14.45.39:017][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2020.01.27-14.45.39:083][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2020.01.27-14.45.39:149][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2020.01.27-14.45.39:224][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2020.01.27-14.45.39:333][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2020.01.27-14.45.39:417][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2020.01.27-14.45.39:496][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.01.27-14.45.39:575][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2020.01.27-14.45.39:643][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2020.01.27-14.45.39:745][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2020.01.27-14.45.39:842][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2020.01.27-14.45.39:917][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2020.01.27-14.45.39:994][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2020.01.27-14.45.40:089][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2020.01.27-14.45.40:175][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2020.01.27-14.45.40:339][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2020.01.27-14.45.40:339][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2020.01.27-14.45.40:398][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2020.01.27-14.45.40:618][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2020.01.27-14.45.40:652][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2020.01.27-14.45.40:762][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2020.01.27-14.45.40:865][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.01.27-14.45.40:948][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2020.01.27-14.45.41:037][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2020.01.27-14.45.41:037][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2020.01.27-14.45.42:168][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2020.01.27-14.45.43:357][  0]LogDerivedDataCache: Loaded boot cache 1.18s 90MB C:/Users/Lucía/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2020.01.27-14.45.43:357][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Lucía/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2020.01.27-14.45.43:357][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Lucía/Documents/GitHub/Ampliaciones-Shooter-Unreal-Engine/Ampliaciones Shooter UO264850/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.01.27-14.45.43:357][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.01.27-14.45.43:357][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Lucía/Documents/GitHub/Ampliaciones-Shooter-Unreal-Engine/Ampliaciones Shooter UO264850/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.01.27-14.45.43:357][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.01.27-14.45.43:420][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.01.27-14.45.43:433][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Lucía/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.01.27-14.45.43:503][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.01.27-14.45.43:546][  0]LogSlate: Using Freetype 2.6.0
+[2020.01.27-14.45.43:600][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.01.27-14.45.43:600][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.01.27-14.45.48:809][  0]LogInit: Selected Device Profile: [Windows]
+[2020.01.27-14.45.49:570][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2020.01.27-14.45.50:225][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.01.27-14.45.50:402][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.01.27-14.45.50:496][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.01.27-14.45.50:496][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2020.01.27-14.45.50:496][  0]LogMeshUtilities: No automatic mesh merging module available
+[2020.01.27-14.45.54:476][  0]LogNetVersion: Supervivencia , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1556410374)
+[2020.01.27-14.45.54:771][  0]LogAssetRegistry: FAssetRegistry took 0.0440 seconds to start up
+[2020.01.27-14.45.54:896][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.072216 seconds
+[2020.01.27-14.45.54:903][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2020.01.27-14.45.54:903][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2020.01.27-14.45.54:903][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.01.27-14.45.54:993][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2020.01.27-14.46.03:502][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.01.27-14.46.03:577][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.01.27-14.46.05:062][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2020.01.27-14.46.05:902][  0]SourceControl: Info Source control is disabled
+[2020.01.27-14.46.06:047][  0]SourceControl: Info Source control is disabled
+[2020.01.27-14.46.06:222][  0]SourceControl: Info Source control is disabled
+[2020.01.27-14.46.06:323][  0]SourceControl: Info Source control is disabled
+[2020.01.27-14.46.08:072][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.01.27-14.46.09:417][  0]LogEngine: Initializing Engine...
+[2020.01.27-14.46.09:509][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.01.27-14.46.09:978][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.01.27-14.46.09:982][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.01.27-14.46.10:680][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.01.27-14.46.10:868][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.01.27-14.46.10:942][  0]LogInit: FAudioDevice initialized.
+[2020.01.27-14.46.10:993][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/Lucía/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2020.01.27-14.46.11:000][  0]LogInit: Texture streaming: Enabled
+[2020.01.27-14.46.11:200][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.01.27-14.46.12:015][  0]LogInit: Transaction tracking system initialized
+[2020.01.27-14.46.12:656][  0]BlueprintLog: New page: Editor Load
+[2020.01.27-14.46.15:065][  0]LocalizationService: Info Localization service is disabled
+[2020.01.27-14.46.16:415][  0]LogConsoleResponse:Display: 
+[2020.01.27-14.46.18:232][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.01.27-14.46.18:232][  0]LogCook:Display: Mobile HDR setting 1
+[2020.01.27-14.46.18:576][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Lucía/Documents/GitHub/Ampliaciones-Shooter-Unreal-Engine/Ampliaciones Shooter UO264850/Content/' took 0.03s
+[2020.01.27-14.46.20:767][  0]SourceControl: Info Source control is disabled
+[2020.01.27-14.46.20:804][  0]Cmd: MAP LOAD FILE="C:/Users/Lucía/Documents/GitHub/Ampliaciones-Shooter-Unreal-Engine/Ampliaciones Shooter UO264850/Content/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.01.27-14.46.20:825][  0]LightingResults: New page: Lighting Build
+[2020.01.27-14.46.20:991][  0]MapCheck: New page: Map Check
+[2020.01.27-14.46.20:991][  0]LightingResults: New page: Lighting Build
+[2020.01.27-14.46.21:500][  0]LogAIModule: Creating AISystem for world Menu
+[2020.01.27-14.46.21:627][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.01.27-14.46.21:688][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.01.27-14.46.21:784][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 96.447ms to complete.
+[2020.01.27-14.46.21:784][  0]LogFileHelpers: Loading map 'Menu' took 0.988
+[2020.01.27-14.46.23:636][  0]LogCollectionManager: Loaded 0 collections in 0.001268 seconds
+[2020.01.27-14.46.23:862][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Lucía/Documents/GitHub/Ampliaciones-Shooter-Unreal-Engine/Ampliaciones Shooter UO264850/Saved/Collections/' took 0.01s
+[2020.01.27-14.46.23:862][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Lucía/Documents/GitHub/Ampliaciones-Shooter-Unreal-Engine/Ampliaciones Shooter UO264850/Content/Developers/Lucía/Collections/' took 0.01s
+[2020.01.27-14.46.23:862][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Lucía/Documents/GitHub/Ampliaciones-Shooter-Unreal-Engine/Ampliaciones Shooter UO264850/Content/Collections/' took 0.01s
+[2020.01.27-14.46.23:862][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2020.01.27-14.46.23:874][  0]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2329 classes and 491 folders.
+[2020.01.27-14.46.24:005][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2020.01.27-14.46.25:023][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2020.01.27-14.46.25:201][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2020.01.27-14.46.26:195][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2020.01.27-14.46.26:340][  0]LogSlate: Took 0.013047 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.01.27-14.46.26:343][  0]LogSlate: Took 0.001500 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.01.27-14.46.26:386][  0]LogSlate: Took 0.007492 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.01.27-14.46.26:733][  0]LogRenderer: Reallocating scene render targets to support 948x436 NumSamples 1 (Frame:1).
+[2020.01.27-14.46.27:047][  0]LogSlate: Took 0.008820 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.01.27-14.46.27:148][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2020.01.27-14.46.27:279][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2020.01.27-14.46.27:279][  0]LogLoad: (Engine Initialization) Total time: 68.96 seconds
+[2020.01.27-14.46.27:279][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.54 seconds
+[2020.01.27-14.46.27:279][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2020.01.27-14.46.27:646][  0]LogOcInput: OculusInput pre-init called
+[2020.01.27-14.46.27:646][  0]LogHMD: Starting GearVRController plugin
+[2020.01.27-14.46.27:809][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.01.27-14.46.27:980][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Lucía/Documents/GitHub/Ampliaciones-Shooter-Unreal-Engine/Ampliaciones Shooter UO264850/Content/' took 0.32s
+[2020.01.27-14.46.28:390][  3]LogAssetRegistry: Asset discovery search completed in 33.6418 seconds
+[2020.01.27-14.46.28:392][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.01.27-14.46.28:392][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000046 seconds (updated 0 objects)
+[2020.01.27-14.46.30:995][153]LogTemp: Repeting last play command: Selected Viewport
+[2020.01.27-14.46.31:102][153]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Menu.Menu_C' with ClassGeneratedBy '/Game/Menu.Menu:PersistentLevel.Menu'
+[2020.01.27-14.46.31:102][153]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.27-14.46.31:155][153]PIE: New page: PIE session: Menu (Jan 27, 2020, 4:46:31 PM)
+[2020.01.27-14.46.31:155][153]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Menu
+[2020.01.27-14.46.31:175][153]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019606s)
+[2020.01.27-14.46.31:175][153]LogAIModule: Creating AISystem for world Menu
+[2020.01.27-14.46.31:176][153]LogPlayLevel: PIE: World Init took: (0.000719s)
+[2020.01.27-14.46.31:176][153]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Menu.Menu to /Game/UEDPIE_0_Menu.Menu (0.020542s)
+[2020.01.27-14.46.31:204][153]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.01.27-14.46.31:229][153]LogInit: FAudioDevice initialized.
+[2020.01.27-14.46.32:435][153]LogLoad: Game class is 'ModoSupervivencia_C'
+[2020.01.27-14.46.32:488][153]LogWorld: Bringing World /Game/UEDPIE_0_Menu.Menu up for play (max tick rate 60) at 2020.01.27-15.46.32
+[2020.01.27-14.46.32:488][153]LogWorld: Bringing up level for play took: 0.000867
+[2020.01.27-14.46.32:651][153]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2020.01.27-14.46.32:817][153]PIE: Info Play in editor start time for /Game/UEDPIE_0_Menu 2.018
+[2020.01.27-14.46.32:818][153]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Menu.Menu_C' with ClassGeneratedBy '/Game/Menu.Menu:PersistentLevel.Menu'
+[2020.01.27-14.46.36:208][334]LogNet: Browse: /Game/Level2
+[2020.01.27-14.46.36:208][334]LogLoad: LoadMap: /Game/Level2
+[2020.01.27-14.46.36:262][334]Cmd: MEM
+[2020.01.27-14.46.36:319][334]LogMemory: Platform Memory Stats for Windows
+[2020.01.27-14.46.36:319][334]LogMemory: Process Physical Memory: 1079.81 MB used, 1205.45 MB peak
+[2020.01.27-14.46.36:319][334]LogMemory: Process Virtual Memory: 1773.73 MB used, 1902.01 MB peak
+[2020.01.27-14.46.36:319][334]LogMemory: Physical Memory: 7012.84 MB used,  25674.44 MB free, 32687.28 MB total
+[2020.01.27-14.46.36:319][334]LogMemory: Virtual Memory: 6831.80 MB used,  25674.44 MB free, 134217728.00 MB total
+[2020.01.27-14.46.36:319][334]LogMemory: 
+[2020.01.27-14.46.36:319][334]Allocator Stats for TBB: (not implemented)
+[2020.01.27-14.46.39:224][334]LogAIModule: Creating AISystem for world Level2
+[2020.01.27-14.46.39:224][334]LogLoad: Game class is 'ModoSupervivencia_C'
+[2020.01.27-14.46.39:373][334]LogWorld: Bringing World /Game/UEDPIE_0_Level2.Level2 up for play (max tick rate 60) at 2020.01.27-15.46.39
+[2020.01.27-14.46.39:457][334]LogWorld: Bringing up level for play took: 0.231166
+[2020.01.27-14.46.39:497][334]LogLoad: Took 3.289454 seconds to LoadMap(/Game/Level2)
